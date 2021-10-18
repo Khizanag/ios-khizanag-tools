@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB311FC3270478C90012728C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB311FC2270478C90012728C /* AppDelegate.swift */; };
+		FB311FC5270478C90012728C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB311FC4270478C90012728C /* SceneDelegate.swift */; };
+		FB311FC7270478C90012728C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB311FC6270478C90012728C /* ViewController.swift */; };
+		FB311FCA270478C90012728C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB311FC8270478C90012728C /* Main.storyboard */; };
+		FB311FCD270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB311FCB270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodeld */; };
+		FB311FCF270478CC0012728C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB311FCE270478CC0012728C /* Assets.xcassets */; };
+		FB311FD2270478CC0012728C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB311FD0270478CC0012728C /* LaunchScreen.storyboard */; };
+		FB311FDD270478CC0012728C /* Khizanag_Tools___UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB311FDC270478CC0012728C /* Khizanag_Tools___UIKitTests.swift */; };
+		FB311FE8270478CC0012728C /* Khizanag_Tools___UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB311FE7270478CC0012728C /* Khizanag_Tools___UIKitUITests.swift */; };
+		FB311FF7270478E60012728C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB311FF6270478E60012728C /* String+Extension.swift */; };
+		FBE8827227181D06007F94E5 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8827127181D06007F94E5 /* Array+Extension.swift */; };
+		FBE8827427182228007F94E5 /* Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8827327182228007F94E5 /* Shortcuts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB311FD9270478CC0012728C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB311FB7270478C90012728C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB311FBE270478C90012728C;
+			remoteInfo = "Khizanag Tools - UIKit";
+		};
+		FB311FE4270478CC0012728C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB311FB7270478C90012728C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB311FBE270478C90012728C;
+			remoteInfo = "Khizanag Tools - UIKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB311FBF270478C90012728C /* Khizanag Tools - UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khizanag Tools - UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB311FC2270478C90012728C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB311FC4270478C90012728C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB311FC6270478C90012728C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB311FC9270478C90012728C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB311FCC270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Khizanag_Tools___UIKit.xcdatamodel"; sourceTree = "<group>"; };
+		FB311FCE270478CC0012728C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB311FD1270478CC0012728C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB311FD3270478CC0012728C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB311FD8270478CC0012728C /* Khizanag Tools - UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khizanag Tools - UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB311FDC270478CC0012728C /* Khizanag_Tools___UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Khizanag_Tools___UIKitTests.swift"; sourceTree = "<group>"; };
+		FB311FDE270478CC0012728C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB311FE3270478CC0012728C /* Khizanag Tools - UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khizanag Tools - UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB311FE7270478CC0012728C /* Khizanag_Tools___UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Khizanag_Tools___UIKitUITests.swift"; sourceTree = "<group>"; };
+		FB311FE9270478CC0012728C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB311FF6270478E60012728C /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		FB6425ED2706EF530016F562 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FBE8827127181D06007F94E5 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		FBE8827327182228007F94E5 /* Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcuts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB311FBC270478C90012728C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB311FD5270478CC0012728C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB311FE0270478CC0012728C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB311FB6270478C90012728C = {
+			isa = PBXGroup;
+			children = (
+				FB311FC1270478C90012728C /* Khizanag Tools - UIKit */,
+				FB311FDB270478CC0012728C /* Khizanag Tools - UIKitTests */,
+				FB311FE6270478CC0012728C /* Khizanag Tools - UIKitUITests */,
+				FB311FC0270478C90012728C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB311FC0270478C90012728C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB311FBF270478C90012728C /* Khizanag Tools - UIKit.app */,
+				FB311FD8270478CC0012728C /* Khizanag Tools - UIKitTests.xctest */,
+				FB311FE3270478CC0012728C /* Khizanag Tools - UIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB311FC1270478C90012728C /* Khizanag Tools - UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB6425EC2706EF410016F562 /* Test */,
+				FB311FF5270478D90012728C /* Extensions */,
+				FB311FC2270478C90012728C /* AppDelegate.swift */,
+				FB311FC4270478C90012728C /* SceneDelegate.swift */,
+				FB311FC6270478C90012728C /* ViewController.swift */,
+				FB311FC8270478C90012728C /* Main.storyboard */,
+				FB311FCE270478CC0012728C /* Assets.xcassets */,
+				FB311FD0270478CC0012728C /* LaunchScreen.storyboard */,
+				FB311FD3270478CC0012728C /* Info.plist */,
+				FB311FCB270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodeld */,
+				FBE8827327182228007F94E5 /* Shortcuts.swift */,
+			);
+			path = "Khizanag Tools - UIKit";
+			sourceTree = "<group>";
+		};
+		FB311FDB270478CC0012728C /* Khizanag Tools - UIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB311FDC270478CC0012728C /* Khizanag_Tools___UIKitTests.swift */,
+				FB311FDE270478CC0012728C /* Info.plist */,
+			);
+			path = "Khizanag Tools - UIKitTests";
+			sourceTree = "<group>";
+		};
+		FB311FE6270478CC0012728C /* Khizanag Tools - UIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB311FE7270478CC0012728C /* Khizanag_Tools___UIKitUITests.swift */,
+				FB311FE9270478CC0012728C /* Info.plist */,
+			);
+			path = "Khizanag Tools - UIKitUITests";
+			sourceTree = "<group>";
+		};
+		FB311FF5270478D90012728C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB311FF6270478E60012728C /* String+Extension.swift */,
+				FBE8827127181D06007F94E5 /* Array+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB6425EC2706EF410016F562 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				FB6425ED2706EF530016F562 /* MyPlayground.playground */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB311FBE270478C90012728C /* Khizanag Tools - UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB311FEC270478CC0012728C /* Build configuration list for PBXNativeTarget "Khizanag Tools - UIKit" */;
+			buildPhases = (
+				FB311FBB270478C90012728C /* Sources */,
+				FB311FBC270478C90012728C /* Frameworks */,
+				FB311FBD270478C90012728C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khizanag Tools - UIKit";
+			productName = "Khizanag Tools - UIKit";
+			productReference = FB311FBF270478C90012728C /* Khizanag Tools - UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB311FD7270478CC0012728C /* Khizanag Tools - UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB311FEF270478CC0012728C /* Build configuration list for PBXNativeTarget "Khizanag Tools - UIKitTests" */;
+			buildPhases = (
+				FB311FD4270478CC0012728C /* Sources */,
+				FB311FD5270478CC0012728C /* Frameworks */,
+				FB311FD6270478CC0012728C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB311FDA270478CC0012728C /* PBXTargetDependency */,
+			);
+			name = "Khizanag Tools - UIKitTests";
+			productName = "Khizanag Tools - UIKitTests";
+			productReference = FB311FD8270478CC0012728C /* Khizanag Tools - UIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB311FE2270478CC0012728C /* Khizanag Tools - UIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB311FF2270478CC0012728C /* Build configuration list for PBXNativeTarget "Khizanag Tools - UIKitUITests" */;
+			buildPhases = (
+				FB311FDF270478CC0012728C /* Sources */,
+				FB311FE0270478CC0012728C /* Frameworks */,
+				FB311FE1270478CC0012728C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB311FE5270478CC0012728C /* PBXTargetDependency */,
+			);
+			name = "Khizanag Tools - UIKitUITests";
+			productName = "Khizanag Tools - UIKitUITests";
+			productReference = FB311FE3270478CC0012728C /* Khizanag Tools - UIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB311FB7270478C90012728C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FB311FBE270478C90012728C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FB311FD7270478CC0012728C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FB311FBE270478C90012728C;
+					};
+					FB311FE2270478CC0012728C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FB311FBE270478C90012728C;
+					};
+				};
+			};
+			buildConfigurationList = FB311FBA270478C90012728C /* Build configuration list for PBXProject "Khizanag Tools - UIKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB311FB6270478C90012728C;
+			productRefGroup = FB311FC0270478C90012728C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB311FBE270478C90012728C /* Khizanag Tools - UIKit */,
+				FB311FD7270478CC0012728C /* Khizanag Tools - UIKitTests */,
+				FB311FE2270478CC0012728C /* Khizanag Tools - UIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB311FBD270478C90012728C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB311FD2270478CC0012728C /* LaunchScreen.storyboard in Resources */,
+				FB311FCF270478CC0012728C /* Assets.xcassets in Resources */,
+				FB311FCA270478C90012728C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB311FD6270478CC0012728C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB311FE1270478CC0012728C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB311FBB270478C90012728C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB311FC7270478C90012728C /* ViewController.swift in Sources */,
+				FB311FC3270478C90012728C /* AppDelegate.swift in Sources */,
+				FBE8827427182228007F94E5 /* Shortcuts.swift in Sources */,
+				FB311FC5270478C90012728C /* SceneDelegate.swift in Sources */,
+				FBE8827227181D06007F94E5 /* Array+Extension.swift in Sources */,
+				FB311FF7270478E60012728C /* String+Extension.swift in Sources */,
+				FB311FCD270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB311FD4270478CC0012728C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB311FDD270478CC0012728C /* Khizanag_Tools___UIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB311FDF270478CC0012728C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB311FE8270478CC0012728C /* Khizanag_Tools___UIKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB311FDA270478CC0012728C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB311FBE270478C90012728C /* Khizanag Tools - UIKit */;
+			targetProxy = FB311FD9270478CC0012728C /* PBXContainerItemProxy */;
+		};
+		FB311FE5270478CC0012728C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB311FBE270478C90012728C /* Khizanag Tools - UIKit */;
+			targetProxy = FB311FE4270478CC0012728C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB311FC8270478C90012728C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB311FC9270478C90012728C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB311FD0270478CC0012728C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB311FD1270478CC0012728C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB311FEA270478CC0012728C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB311FEB270478CC0012728C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB311FED270478CC0012728C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 487Z879GSQ;
+				INFOPLIST_FILE = "Khizanag Tools - UIKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khizanag.Khizanag-Tools---UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB311FEE270478CC0012728C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 487Z879GSQ;
+				INFOPLIST_FILE = "Khizanag Tools - UIKit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khizanag.Khizanag-Tools---UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB311FF0270478CC0012728C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 487Z879GSQ;
+				INFOPLIST_FILE = "Khizanag Tools - UIKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khizanag.Khizanag-Tools---UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khizanag Tools - UIKit.app/Khizanag Tools - UIKit";
+			};
+			name = Debug;
+		};
+		FB311FF1270478CC0012728C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 487Z879GSQ;
+				INFOPLIST_FILE = "Khizanag Tools - UIKitTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khizanag.Khizanag-Tools---UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khizanag Tools - UIKit.app/Khizanag Tools - UIKit";
+			};
+			name = Release;
+		};
+		FB311FF3270478CC0012728C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 487Z879GSQ;
+				INFOPLIST_FILE = "Khizanag Tools - UIKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khizanag.Khizanag-Tools---UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khizanag Tools - UIKit";
+			};
+			name = Debug;
+		};
+		FB311FF4270478CC0012728C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 487Z879GSQ;
+				INFOPLIST_FILE = "Khizanag Tools - UIKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khizanag.Khizanag-Tools---UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khizanag Tools - UIKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB311FBA270478C90012728C /* Build configuration list for PBXProject "Khizanag Tools - UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB311FEA270478CC0012728C /* Debug */,
+				FB311FEB270478CC0012728C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB311FEC270478CC0012728C /* Build configuration list for PBXNativeTarget "Khizanag Tools - UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB311FED270478CC0012728C /* Debug */,
+				FB311FEE270478CC0012728C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB311FEF270478CC0012728C /* Build configuration list for PBXNativeTarget "Khizanag Tools - UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB311FF0270478CC0012728C /* Debug */,
+				FB311FF1270478CC0012728C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB311FF2270478CC0012728C /* Build configuration list for PBXNativeTarget "Khizanag Tools - UIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB311FF3270478CC0012728C /* Debug */,
+				FB311FF4270478CC0012728C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB311FCB270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB311FCC270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodel */,
+			);
+			currentVersion = FB311FCC270478C90012728C /* Khizanag_Tools___UIKit.xcdatamodel */;
+			path = "Khizanag_Tools___UIKit.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB311FB7270478C90012728C /* Project object */;
+}
